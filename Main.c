@@ -2,7 +2,9 @@
 int main(){
 
     FILE *archivo=NULL;
+    FILE *resultado=NULL;
     char buffer[100];
+    int w[100];
     double pi;
 
     archivo=fopen("archivo.txt","r+");
