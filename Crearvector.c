@@ -14,7 +14,7 @@ int main(){
     }
 
     for(int i=0; i<100; i++){
-        fprintf(archivo,"%d\n",i*3);
+        fprintf(archivo,"%d\n",i);
     }
      fclose(archivo);
      return 0;
